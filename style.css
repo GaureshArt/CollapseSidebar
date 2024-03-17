@@ -1,0 +1,91 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+/* border: 1px solid red; */
+}
+:root{
+    --hWidth : 260px;
+}
+body{
+    background-color: white;
+}
+p{
+/* border: 1px solid red; */
+top: 3rem;
+position: relative;
+left: 270px;
+width: calc(100vw - 320px);
+white-space: wrap;
+letter-spacing: 1.5px;
+word-spacing: 2px;
+/* width: calc(100% - 300px);  */
+}
+#nav{
+  
+    position: absolute;
+    width: var(--hWidth);
+    height: 490px;
+    background-color:#191919;
+    margin-top: 3rem;
+    border-radius: 0.5rem 1rem 2rem 0.5rem;
+}
+
+.main_icon{
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    
+    gap: 2.4rem;
+    h3{
+        color: white;
+        font-size: 1.6rem;
+        font-weight: bold;
+        font-family: "Hedvig Letters Sans", sans-serif;
+        white-space: 'nowrap';
+       
+    }
+}
+#main_icon_img{
+    transition: 2s ease;
+    width: 2rem;
+}
+#hamburger_icon{
+    width: 2rem;
+}
+#navtab{
+    background-color: #610C9F;
+    margin-top: 1rem;
+    
+    
+    border-radius: 0 2rem 2rem .5rem;
+    height: 413px;
+    padding: .7rem;
+    padding-top: 1.4rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.9rem;
+    justify-content: center;
+
+    h3{
+        color: white;
+        font-size: 1.3rem;
+        font-weight: 500;
+        font-family: "Hedvig Letters Sans", sans-serif;
+        white-space: nowrap;
+    }
+    img{
+        position: relative;
+        white-space: nowrap;
+        width: 1.9rem;
+    }
+    .tab{
+        /* border: 1px solid red; */
+        display: flex;
+        gap: 3.8rem;
+        white-space: nowrap;
+    }
+}
+
